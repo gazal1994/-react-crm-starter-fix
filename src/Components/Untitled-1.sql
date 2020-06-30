@@ -1,0 +1,1 @@
+SELECT * FROM `test`.`client` LIMIT 1000;

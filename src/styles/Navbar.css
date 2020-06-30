@@ -1,0 +1,39 @@
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+  }
+  
+  #navbar {
+    background-color: black;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    
+  }
+  
+  #links {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+  }
+  
+  #links > a {
+    padding: 3vh 0;
+    text-decoration: none;
+    color: #EFEFEF;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+  }
+  
+  #links > a:hover {
+    background-color: #1E53EC;
+  }
+  
+  #cart-info {
+    justify-self: end;
+    align-self: center;
+    font-size: 28px;
+    margin-right: 10px;
+    color: #EFEFEF;
+  }
+ 
